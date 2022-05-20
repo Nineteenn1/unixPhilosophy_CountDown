@@ -6,7 +6,7 @@ proc = r"enter the path here with double backslashes"
 try:
     while timeLeft > 0:
         for i in range(timeLeft + 1):
-            print(timeLeft, end='')
+            print(timeLeft, sep='\n')
             time.sleep(1)
             timeLeft = timeLeft - 1
         subprocess.Popen(['start', proc], shell=True)
