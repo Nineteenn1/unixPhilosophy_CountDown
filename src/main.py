@@ -1,4 +1,4 @@
-''' run it with: python {path} {seconds} in the terminal'''
+''' run it with: python {path} {seconds} in the Command Line'''
 import time, subprocess, sys
 import pyautogui as auto
 timeLeft = int("".join(sys.argv[1:]))
