@@ -1,2 +1,2 @@
 # unixPhilosophy_CountDown
-A simple stopwatch made in Python that uses the UNIX philosophy
+A simple Countdown app made in Python that is based on the UNIX philosophy
