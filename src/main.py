@@ -2,7 +2,7 @@
 import time, subprocess, sys
 import pyautogui as auto
 timeLeft = int("".join(sys.argv[1:]))
-proc = r"enter the path here with double backslashes"
+proc = r"enter the path here" #use raw input or double backslashes e.g. C:\\ instead of C:\
 try:
     while timeLeft > 0:
         for i in range(timeLeft + 1):
