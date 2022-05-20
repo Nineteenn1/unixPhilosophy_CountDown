@@ -8,7 +8,7 @@ try:
         for i in range(timeLeft + 1):
             print(timeLeft, sep='\n')
             time.sleep(1)
-            timeLeft = timeLeft - 1
+            timeLeft -= 1
         subprocess.Popen(['start', proc], shell=True)
 except KeyboardInterrupt:
     time.sleep(0.5)
