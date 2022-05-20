@@ -13,5 +13,4 @@ try:
 except KeyboardInterrupt:
     time.sleep(0.5)
     auto.alert("Exited the program")
-    proc.kill()
     quit()
