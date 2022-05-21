@@ -11,7 +11,7 @@ try: #Handle the exception
             time.sleep(1) #wait 1 second
             timeLeft -= 1 #subtract 1 from it
         subprocess.Popen(['start', proc], shell=True)
-except KeyboardInterrupt: #This happens if you press CTRL+C
+except KeyboardInterrupt: #This happens if you press CTRL+C:
     time.sleep(0.5) #Wait 0.5 seconds
     auto.alert("Successfully exited the program") #Pop up an alert
     quit() #Exit the program
