@@ -6,7 +6,7 @@ timeLeft = int("".join(sys.argv[1:]))
 proc = r"enter the path here" #Use raw input or double backslashes e.g. C:\\ instead of C:\, raw input begins with the prefix r like shown
 try: #Handle the exception
     while timeLeft > 0: #Repeat the process until the time's up
-        for i in range(timeLeft + 1): #Make it possible to stop the program, repeat it as many times as many seconds are provided as an argument in the command line
+        for i in range(timeLeft + 1): #Make it possible to stop the program, repeat it as many times as many seconds were provided as an argument in the command line
             print(timeLeft, sep='\n') #Print out the time left
             time.sleep(1) #wait 1 second
             timeLeft -= 1 #subtract 1 from it
